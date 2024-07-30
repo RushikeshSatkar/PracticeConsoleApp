@@ -18,7 +18,7 @@ namespace PracticeConsoleApp.OOP.Inheritance
     {
         public override void Send()
         {
-            Console.WriteLine("Message Sent");
+            Console.WriteLine("Message Sent from Derived Class");
             base.Send();
         }
     }
